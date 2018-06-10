@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-groceries.each_char { |chr|  }values
-
-
+  groceries.each do |item|
+    item.values
+  end
 end
